@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formularios </title>
+    <link rel="icon" href="imagen1.png">
+</head>
+<body style=" background-color: bisque; margin: 0; padding: 0;font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;">
+    <header style=" background-color: #333; color: bisque; text-align: center; padding: 20px 0;">
+            <h2 style="margin: 0;"> Uso de Formularios</h2>
+    </header>
+    <main>
+        <form style="display: inline-block; text-align: left; padding: 20px;">
+            <label for="nombre"> Nombre :</label>
+            <input type="text" id="nombre" name="nombre" required data-nombre placeholder="Tu nonbre aqui"> <br> <br>
+            <label for="correo">Correo :</label>
+            <input type="email" name="email" id="email" required data-email> <br> <br>
+            <label for="fecha">Fecha de nacimiento :</label>
+            <input type="date" name="date" id="date" required data-date> <br> <br>
+            <label for="foto">Fotografia :</label>
+            <input type="file" name="file" id="file" accept="image/*" data-foto> <br> <br>
+
+            <input type="submit" value="Enviar">
+
+
+        </form>
+    </main>
+    <footer>
+
+    </footer>
+</body>
+</html>
