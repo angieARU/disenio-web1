@@ -1,0 +1,12 @@
+.portada__imagen{
+    background: url('../../img/port1.jpg');
+    background-repeat: none;
+    width: 100%;
+    background-size: cover;
+    background-position: center;
+}
+@media screen and (min-width:0){
+    .portada__imagen{
+        height: calc(200vh - 51px);
+    }
+}
