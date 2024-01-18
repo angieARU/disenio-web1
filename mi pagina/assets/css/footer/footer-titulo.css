@@ -1,0 +1,9 @@
+.footer__titulo{
+    display: flex;
+    color: rgb(15, 54, 126);
+    font-family: 'Dela Gothic One', sans-serif;
+    font-size: 1.7rem;
+    align-items: center;
+    padding: 1.2rem;
+    
+}

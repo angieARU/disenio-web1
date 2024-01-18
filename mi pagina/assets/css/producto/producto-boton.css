@@ -1,0 +1,11 @@
+.producto__boton{
+    background-color: rgb(55, 89, 151);
+    border: none;
+    border-radius: 15px 0 ;
+    color: azure;
+    padding: 0.75rem;
+}
+.producto__boton:hover{
+    cursor: pointer;
+    background-color: rgb(108, 108, 232);
+}

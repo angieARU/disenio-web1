@@ -1,0 +1,18 @@
+.productos{
+    background-color: azure;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+@media screen and (min-width:0) {
+    .productos{
+        padding: 5rem 0 0 1rem;
+    }
+    
+}
+@media screen and (min-width:750px) {
+    .productos{
+        padding: 5rem 0 0 2rem;
+    }
+    
+}

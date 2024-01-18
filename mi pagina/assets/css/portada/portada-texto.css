@@ -1,6 +1,7 @@
 .portada__texto{
-    color: rgb(255, 255, 255);
+color: rgb(255, 255, 255);
     font-family: 'Dela Gothic One', sans-serif;
+    
     position: absolute;
     top: 50%;
     left: 50%;
@@ -9,4 +10,15 @@
     transform: translate(-50%,-50%);
     width: 100%;
 
+}
+
+@media screen and (min-width:0) {
+        .portada__texto{
+            font-size: 2rem;
+        }
+}
+@media screen and (min-width:750px) {
+    .portada__texto{
+        font-size: 3rem;
+    }
 }
